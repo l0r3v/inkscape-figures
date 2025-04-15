@@ -46,7 +46,7 @@
         defaultPackage = self.packages.${system}.inkscape-figures;
 
         apps.default = flake-utils.lib.mkApp {
-          drv = self.packages.${system}.inkscape-figures;
+          drv = self.packages.${system}.default;
           name = "inkscape-figures";
         };
       }

@@ -4,3 +4,6 @@ roots
 /dist/
 /*.egg-info
 /build
+bin
+result
+default.nix
