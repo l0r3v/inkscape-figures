@@ -43,10 +43,10 @@
           };
         };
 
-        defaultPackage = self.packages.${system}.default;
+        defaultPackage = self.packages.${system}.inkscape-figures;
 
         apps.default = flake-utils.lib.mkApp {
-          drv = self.packages.${system}.default;
+          drv = self.packages.${system}.inkscape-figures;
           name = "inkscape-figures";
         };
       }
