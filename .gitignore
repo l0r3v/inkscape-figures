@@ -7,3 +7,4 @@ roots
 bin
 result
 default.nix
+bin/inkscape-figures
