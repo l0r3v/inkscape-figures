@@ -24,7 +24,8 @@
           pname = "inkscape-figures";
           version = "1.0.7";
           src = ./.;
-
+          pyproject = true;
+          build-system = [ pkgs.python3Packages.setuptools ];
           propagatedBuildInputs = with pkgs.python3Packages; [
             pyperclip
             click
